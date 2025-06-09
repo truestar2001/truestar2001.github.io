@@ -27,6 +27,12 @@ header.custom-header {
   color: #0077cc;
 }
 
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
 
 body {
   font-family: 'Segoe UI', sans-serif;
