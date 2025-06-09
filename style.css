@@ -26,7 +26,12 @@ header.custom-header {
 .header-right a:hover {
   color: #0077cc;
 }
-
+.subsection-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #555;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 header {
   background: #2c3e50;
   color: white;
