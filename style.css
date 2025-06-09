@@ -38,3 +38,12 @@ footer {
   background: #eee;
   font-size: 0.9rem;
 }
+
+.date {
+  color: #888;
+  font-weight: normal;
+}
+
+.location {
+  color: #666;
+}
