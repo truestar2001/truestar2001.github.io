@@ -64,6 +64,15 @@ h2 {
   color: #333;
 }
 
+h3.subsection {
+  font-size: 1.1rem;
+  color: #666;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  border-left: 4px solid #aaa;
+  padding-left: 0.6rem;
+}
+
 section {
   max-width: 1200px;
   margin: auto;
