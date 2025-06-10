@@ -51,12 +51,20 @@ header {
   margin-bottom: 2rem; 
 }
 
-.header-container {
+/* .header-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+} */
+
+.navbar {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* 오른쪽 정렬 */
   align-items: center;
 }
 
