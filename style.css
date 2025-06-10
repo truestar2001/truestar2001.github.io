@@ -268,3 +268,14 @@ footer {
   object-fit: cover;
   border-radius: 10px;
 }
+
+.music-track {
+  margin-bottom: 20px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+audio {
+  width: 100%;
+}
