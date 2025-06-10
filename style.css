@@ -40,6 +40,11 @@ header {
   padding: 2rem 1rem;
   text-align: center;
 } */
+.divider {
+  border: none;
+  border-top: 1px solid #ccc; /* 연한 회색 선 */
+  margin: 1.5rem 0; /* 위아래 공간 */
+}
 
 header {
   background-color: transparent;
