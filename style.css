@@ -171,6 +171,7 @@ footer {
   margin-top: 2rm;
   background: white;
   padding: 3rem 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .about-container {
@@ -181,7 +182,6 @@ footer {
   margin: auto;
   flex-wrap: wrap;
   gap: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .about-text {
