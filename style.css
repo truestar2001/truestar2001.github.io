@@ -40,6 +40,43 @@ header {
   padding: 2rem 1rem;
   text-align: center;
 } */
+
+/* News Section Styles */
+#news {
+  padding: 40px 20px;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.news-date {
+  flex: 0 0 110px;
+  font-weight: bold;
+  color: #444;
+}
+
+.news-content {
+  flex: 1;
+}
+
+.news-divider {
+  border: none;
+  border-top: 1px dashed #aaa;
+  margin-top: 30px;
+}
+
+
+
 .divider {
   border: none;
   border-top: 1px solid #ccc; /* 연한 회색 선 */
