@@ -42,6 +42,9 @@ header {
 } */
 
 /* News Section Styles */
+.intro-text {
+  margin-bottom: 1.5em; /* 원하는 만큼 띄우기 */
+}
 #news {
   padding: 40px 20px;
 }
