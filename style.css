@@ -297,8 +297,8 @@ audio {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   align-items: center;
   background-color: white;
-  word-wrap: break-word; 
-  box-sizing: border-box;  
+/*   word-wrap: break-word; 
+  box-sizing: border-box;   */
 }
 
 .publication-item figure {
@@ -314,7 +314,7 @@ audio {
 }
 
 .publication-item .abstract {
-  flex: 0 0 60%; /* abstract 60% */
+  flex: 0 0 50%; /* abstract 60% */
   text-align: justify;
   line-height: 1.5;
 }
