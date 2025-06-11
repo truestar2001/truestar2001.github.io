@@ -296,7 +296,7 @@ audio {
 }
 
 .publication-item figure {
-  flex: 1;          /* 왼쪽 영역 50% 정도 */
+  flex: 0 0 40%; /* 그림 40% */
   margin: 0;
 }
 
@@ -308,7 +308,7 @@ audio {
 }
 
 .publication-item .abstract {
-  flex: 1;          /* 오른쪽 영역 50% 정도 */
+  flex: 0 0 60%; /* abstract 60% */
   text-align: justify;
   line-height: 1.5;
 }
