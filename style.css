@@ -314,7 +314,7 @@ audio {
 }
 
 .publication-item .abstract {
-  flex: 0 0 50%; /* abstract 60% */
+  flex: 0 0 55%; /* abstract 60% */
   text-align: justify;
   line-height: 1.5;
 }
