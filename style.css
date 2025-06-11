@@ -192,9 +192,9 @@ em {
 }
 
 .date, .location {
-/*   font-weight: 500; */
+  font-weight: 300;
   color: #888;
-/*   font-size: 1rem; */
+  font-size: 0.9rm;
 }
 
 footer {
