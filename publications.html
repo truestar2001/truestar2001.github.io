@@ -44,8 +44,17 @@
       <figcaption>Figure 2 Caption</figcaption>
     </figure>
     <div class="abstract">
-      <h3>Paper Title 2</h3>
-      <p>This is the abstract for the second paper. Lorem ipsum dolor sit amet...</p>
+      <h3>QR-VC: Leveraging Quantization Residuals for Linear Disentanglement in Zero-Shot Voice Conversion</h3>
+      <p>
+        Zero-shot voice conversion is a technique that alters the speaker identity of an input speech to match a target speaker using only a single reference utterance, without requiring additional training.
+        Recent approaches extensively utilize self-supervised learning features with K-means quantization to extract high-quality content representations, effectively removing speaker identity by exploiting their structural properties. However, this quantization process also eliminates fine-grained phonetic and prosodic variations, leading to degradation in intelligibility and prosody preservation.
+        While prior works have primarily focused on quantized representations, the potential of quantization residuals remains underexplored.
+        In this paper, we introduce a novel approach that fully utilizes quantization residuals to disentangle speaker identity while restoring phonetic and prosodic details lost during quantization.
+        By applying only K-means quantization and linear transformations, our method achieves effective disentanglement within a unified framework.
+        This enables high-fidelity voice conversion while relying solely on reconstruction losses, eliminating the need for explicit supervision. Furthermore, it removes the reliance on complex, deep networks in the disentanglement structure.
+        Experiments demonstrate that the proposed model outperforms existing methods while maintaining a simple disentanglement structure.
+        It achieves superior intelligibility and speaker similarity while better preserving prosody, highlighting the impact of quantization residuals in zero-shot VC.
+      </p>
     </div>
   </div>
 
