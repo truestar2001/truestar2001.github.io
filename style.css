@@ -156,6 +156,7 @@ body {
 
 h1 {
   margin: 0;
+  margin-bottom: 40px; /* 기본보다 더 넓게 */
   font-size: 2.2rem;
 }
 
