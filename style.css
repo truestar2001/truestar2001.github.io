@@ -282,3 +282,40 @@ footer {
 audio {
   width: 100%;
 }
+.publications {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.publication-item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  align-items: flex-start;
+}
+
+.publication-item figure {
+  flex: 1;          /* 왼쪽 영역 50% 정도 */
+  margin: 0;
+}
+
+.publication-item figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.publication-item .abstract {
+  flex: 1;          /* 오른쪽 영역 50% 정도 */
+}
+
+.publication-item .abstract h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.publication-item .abstract p {
+  line-height: 1.5;
+}
