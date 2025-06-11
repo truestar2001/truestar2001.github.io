@@ -309,6 +309,8 @@ audio {
 
 .publication-item .abstract {
   flex: 1;          /* 오른쪽 영역 50% 정도 */
+  text-align: justify;
+  line-height: 1.5;
 }
 
 .publication-item .abstract h3 {
